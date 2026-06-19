@@ -14,7 +14,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react313g1">
       <Header />  
       <Navbar />   
       <div className="main">
